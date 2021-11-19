@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Shippori Antique B1', sans-serif;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(23, 189, 255, 0.911);
+}
+
+.box{
+    border: 2px solid;
+    width: 400px;
+    height: 570px;
+    background-color: rgb(214, 214, 214);
+    -webkit-box-shadow: 0px 10px 33px 3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 10px 33px 3px rgba(0,0,0,0.75);
+     box-shadow: 0px 10px 33px 3px rgba(0,0,0,0.75);
+     border-radius: 10px;
+}
+
+.heading{
+    height: 40px;
+    width: 100%;    
+}
+
+.head{
+    margin-top: 20px;
+   text-align: center;
+   font-size: 30px;
+   color: rgb(23, 189, 255)
+}
+
+.search-bar{
+    display: flex;    
+}
+
+.search{
+    height: 40px;
+    padding:10px ;
+    font-size: large;
+    width: 80%;
+    border-radius: 5px;
+    background-color: rgba(202, 196, 196, 0.829);
+    margin: 20px 5px 0px 20px;
+}
+
+
+.search-icon:hover{
+    background-color: rgb(67, 255, 255);
+    color: rgba(19, 19, 13, 0.822);
+}
+
+.search-icon{     
+    height: 40px;
+    width: 15%;
+    background-color: rgb(156, 179, 155);
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;    
+    margin-top: 20px;
+    margin-right: 10px;
+    
+    color: white;
+    background-color: rgb(23, 189, 255);
+}
+
+.city{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.loc{
+    margin-top: 18px;
+    margin-right: 10px;
+    font-size: large;
+    color: rgba(0, 0, 0, 0.582);
+}
+
+.city-name{
+    margin-top: 20px;
+  font-size: 30px;
+  color: rgba(0, 0, 0, 0.582);
+}
+
+.picture{
+    display: flex;     
+    justify-content: center;   
+}
+
+.picture img{
+    height: 200px;  
+}
+
+.temperature{
+    display: flex;
+    width: 100%;
+    height: 30px;
+    justify-content: center;
+}
+ 
+.temp{
+    font-size: 30px;
+}
+
+.para{
+    font-size: 30px;
+}
+
+.weather{
+    margin-top: 10px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.foot{
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ 
+.icons{
+    color: rgb(58, 193, 247);
+    font-size: 30px;
+}
+
+.deg{
+    margin-top: 9px;
+}
+
+.speeds{  
+    display: block;  
+    text-align: center;
+    width: 50%;
+}
+
+.humidity{     
+    display: block;  
+    text-align: center;
+    width: 50%;
+}
+
+#error-msg{
+    margin-top: 30px;
+    text-align: center;
+    display: none;
+}
+
+#error-msg img{
+    height: 300px;
+}
+
+#error-msg p{
+    font-size: 30px;
+}
+ 
